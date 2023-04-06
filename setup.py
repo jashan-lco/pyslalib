@@ -26,5 +26,6 @@ if __name__ == "__main__":
           package_dir = {'pyslalib': 'lib'},
           package_data = {'pyslalib': ['docstring_pickle.pkl']},
           ext_modules = [ext1],
-          install_requires=['numpy']
+          install_requires=['numpy'],
+          python_requires='>=3.6,<3.10',
           )
